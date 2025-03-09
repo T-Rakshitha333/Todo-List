@@ -12,7 +12,7 @@ const App = () => {
       <Col lg={12} sm={12} md={12}>
     <div className="App">
       <h1 className='todos-heading'>Task Tracker</h1>
-      <h1 class="create-task-heading">Create <span class="create-task-heading-subpart">Task</span></h1>
+      
       <TaskInput />
       <TaskList />
     </div>
